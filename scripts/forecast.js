@@ -26,8 +26,3 @@ const getWeather = async (location) => {
 
     return data[0];
 };
-
-getCity("salinas")
-    .then(data => getWeather(data))
-    .then(data => console.log(data))
-    .catch((err) => console.log(err));
