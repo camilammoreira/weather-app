@@ -3,6 +3,8 @@
 const cityForm = document.querySelector("form");
 const card = document.querySelector(".card");
 const details = document.querySelector(".details");
+const time = document.querySelector(".time");
+const icon = document.querySelector(".icon img");
 
 const updateCity = async (city) => {
 
@@ -28,6 +30,11 @@ const updateUI = (data) => {
         <span>${weather.Temperature.Metric.Value}&deg;C</span>
     </div>
     `;
+
+    icon.setAttribute("src", `assets/${weather.WeatherIcon}.svg`);
+
+    let timeSrc = weather.IsDayTime ? "assets/day.svg" : "assets/night.svg";
+    time.setAttribute("src", timeSrc);
 
     card.classList.remove("d-none");
 }

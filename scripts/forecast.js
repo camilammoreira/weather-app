@@ -1,6 +1,6 @@
 // API interaction
 
-const key = "w9x7m0YW2zutav9wDw54AvGeoABVOJbg"
+const key = "3SdAkGeF8Cr1LsknVQcLYgvlmN86TDXe"
 
 
 // Get city info
