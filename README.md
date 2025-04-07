@@ -16,9 +16,7 @@ A simple weather forecast application that uses the AccuWeather API to provide r
 
 ## 📷 Demo
 
-
-https://github.com/user-attachments/assets/70722a15-7f98-408d-ab27-f503e955b982
-
+https://github.com/user-attachments/assets/ba2fd68d-a0ad-4bd7-9cb8-3f68c06d4146
 
 ## 📂 Project Structure
 
