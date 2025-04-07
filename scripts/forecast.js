@@ -14,15 +14,15 @@ class Forecast {
         // Return promise with object data
         return { cityDets, weather };
     }
-    async getCity(city) {
-        const query = `?apikey=${this.key}&q=${city}`;
-        const response = await fetch(this.cityURI + query);
-        const data = await response.json();
-        return data[0];
-    }
     async getWeather(city) {
         const query = `${city.Key}?apikey=${this.key}`;
         const response = await fetch(this.weatherURI + query);
+        const data = await response.json();
+        return data[0];
+    }
+    async getCity(city) {
+        const query = `?apikey=${this.key}&q=${city}`;
+        const response = await fetch(this.cityURI + query);
         const data = await response.json();
         return data[0];
     }

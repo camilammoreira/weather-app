@@ -1,8 +1,9 @@
 body {
-    background: linear-gradient(#331a49, #AEE6ED);
+    background: #2c441f;
     letter-spacing: 0.2em;
     font-size: 0.8em;
     height: 100vh;
+    color: #F7F4F0;
 }
 
 .container {
